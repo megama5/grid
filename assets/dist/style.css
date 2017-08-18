@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto; }
+
+.clearfix, .row:after {
+  clear: both;
+  display: block;
+  content: ''; }
+
+.row {
+  width: 100%;
+  margin-bottom: 16px;
+  font-size: 0; }
+  .row__col {
+    float: left;
+    padding: 0 8px;
+    width: 100%; }
+    .row__col--w1 {
+      max-width: 8.33%; }
+    .row__col--w2 {
+      max-width: 16.66%; }
+    .row__col--w3 {
+      max-width: 24.99%; }
+    .row__col--w4 {
+      max-width: 33.32%; }
+    .row__col--w5 {
+      max-width: 41.65%; }
+    .row__col--w6 {
+      max-width: 49.98%; }
+    .row__col--w7 {
+      max-width: 58.31%; }
+    .row__col--w8 {
+      max-width: 66.64%; }
+    .row__col--w9 {
+      max-width: 74.97%; }
+    .row__col--w10 {
+      max-width: 83.30%; }
+    .row__col--w11 {
+      max-width: 91.63%; }
+    .row__col--w12 {
+      max-width: 99.96%; }
+    .row__col--wo-padding {
+      padding: 0; }
+  .row:last-child {
+    margin-bottom: 0; }
+
+.img {
+  width: 100%; }
+  .img--h150 {
+    height: 150px; }
+  .img--h145 {
+    height: 145px; }
+  .img--h165 {
+    height: 165px; }
+  .img--h195 {
+    height: 195px; }
+  .img--h331 {
+    height: 331px; }
+
+.image-blocks {
+  margin-bottom: 16px; }
+
+.image-blocks__header {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #4D5152;
+  padding: 22px 0 6px 0; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,82 @@
+// $sideMargin: 8px;
+$columnSidePadding: 8px;
+$bottomRowMargin: 16px;
+
+.row{
+	width: 100%;
+	margin-bottom: $bottomRowMargin;
+	font-size: 0;
+
+	&__col{
+		float: left;
+		padding: 0 $columnSidePadding;
+		width: 100%;
+
+		&--w1{
+			max-width: 8.33%;
+		}
+		&--w2{
+			max-width: 16.66%;
+		}		
+		&--w3{
+			max-width: 24.99%;
+		}		
+		&--w4{
+			max-width: 33.32%;
+		}
+		&--w5{
+			max-width: 41.65%;
+		}	
+		&--w6{
+			max-width: 49.98%;
+		}	
+		&--w7{
+			max-width: 58.31%;
+		}
+		&--w8{
+			max-width: 66.64%;
+		}	
+		&--w9{
+			max-width: 74.97%;
+		}	
+		&--w10{
+			max-width: 83.30%;
+		}	
+		&--w11{
+			max-width: 91.63%;
+		}	
+		&--w12{
+			max-width: 99.96%;
+		}	
+		&--wo-padding{
+			padding: 0;
+		}
+	}
+
+	&:after{
+		@extend .clearfix;
+	}
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+
+.img{
+	width: 100%;
+
+	&--h150{
+		height: 150px;
+	}
+	&--h145{
+		height: 145px;
+	}
+	&--h165{
+		height: 165px;
+	}
+	&--h195{
+		height: 195px;
+	}
+	&--h331{
+		height: 331px;
+	}
+}
