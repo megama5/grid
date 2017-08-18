@@ -96,7 +96,9 @@ table {
     margin-bottom: 0; }
 
 .img {
-  width: 100%; }
+  width: 100%;
+  box-shadow: none;
+  transition: all .3s ease; }
   .img--h150 {
     height: 150px; }
   .img--h145 {
@@ -107,6 +109,8 @@ table {
     height: 195px; }
   .img--h331 {
     height: 331px; }
+  .img:hover {
+    box-shadow: 0 0 4px #4D5152; }
 
 .image-blocks {
   margin-bottom: 16px; }

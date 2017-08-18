@@ -63,6 +63,8 @@ $bottomRowMargin: 16px;
 
 .img{
 	width: 100%;
+	box-shadow: none;
+	transition: all .3s ease;
 
 	&--h150{
 		height: 150px;
@@ -78,5 +80,9 @@ $bottomRowMargin: 16px;
 	}
 	&--h331{
 		height: 331px;
+	}
+
+	&:hover{
+		box-shadow: 0 0 4px #4D5152;
 	}
 }
